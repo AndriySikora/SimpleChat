@@ -2,7 +2,24 @@ input{
   	color: #CCC;
 	border: 2px solid #CCC;
 }
-.chatbox{
-	color: #CCC;
-	border: 2px solid #CCC;
+.message-text{
+	width:100%;
+	margin-top:10px;
+	height:35px;
+	margin-bottom:25px;
+	border:1px solid #2BC1F2
+}
+.user-name{
+	text-align: left;
+}
+.message-form{
+	border:1px solid #ccc;
+	width:300px;
+	padding:0 50px 15px;
+	margin-top:20px;
+	box-shadow:0 0 15px;
+	border-radius:5px;
+}
+#button:hover{
+	cursor:pointer;
 }
